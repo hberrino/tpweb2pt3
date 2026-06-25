@@ -2,6 +2,9 @@
 
 Integrante: Hernan Berrino Malaccorto
 
+Aclaración: No esta incluida la reentrega del tp parte 2 aca porque ya la habia actualizado corrigiendo los errores en su momento, sigue en el repo:
+https://github.com/hberrino/tpweb2/
+
 Este repo corresponde a la parte 3 del TPE. La idea sigue siendo la misma del trabajo anterior: una tienda de ropa y accesorios de estetica gotica. En esta parte no hay frontend, solamente una API REST para poder consultar y modificar productos desde Postman o desde otro sistema.
 
 La base de datos es la misma que se uso en la entrega anterior: `goth_store`. Inclui el archivo `goth_store.sql` en este repo para poder importarla de nuevo si hace falta. No agregue tablas nuevas ni cambie columnas, para no romper la entrega anterior.
@@ -13,8 +16,6 @@ Para probarlo hay que poner la carpeta del proyecto dentro de `C:\xampp\htdocs\`
 Si la carpeta se llama distinto, se cambia esa parte de la URL. Por ejemplo, si la carpeta se llama `api-goth`, seria:
 
 `http://localhost/api-goth`
-
-El codigo no tiene hardcodeado el nombre de la carpeta.
 
 Token para POST y PUT:
 
